@@ -1,35 +1,114 @@
+html {
+  background: url(../images/fabric_1.png)
+}
+
+b {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 header {
-    padding: 20px;
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
     margin-bottom: 20px;
-    color: #333;
-    background: #ccc;
-    float: center;
+    margin-top: -12px;
+    background:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+  }
+  .headerbg {
+    background: white;
+    border-bottom: 2px solid gray ;
+    height: 60px;
+    
+}
+
+  .header1 {
+    width:275px;
+    height: 60px;
+    position: absolute;
+    background: rgb(17, 161, 161);
+  }
+
+  .name {
+    margin-left: 9%;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
   }
 
   nav {
-    float: center;
-    background: #ccc;
-    margin-top: 20px;
+    padding-left: 650px;
     height: 60px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    background: white;
+    color: lightgray;
   }
+
+  .nav1 {
+    
+  }
+
 
   .profileimg {
       float: left;
-
   }
-
-  section {
-    float: center;
-    background: rgb(223, 174, 174);
+  
+  .section1 {
     width: 960px;
+    background: gray;
+    margin: auto;
+  }
+  
+  
+  .section2 {
+    background: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid gray;
+    color: darkslategray;
+    font-family: sans-serif;
   }
   
   footer {
-    float: center;
-    background: #ccc;
+    align-items: center;
+    bottom: -10px;
+    text-align: center;
+    background: darkgray;
     margin-top: 20px;
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-left: -8px;
+    position: fixed;
+    border-top: 7px rgb(17, 161, 161) solid;
+    font-family: sans-serif;
+    color: white
   }
+
+  h6 {
+    margin-top: 15px;
+  }
+  
+    ul { 
+      list-style-type: none;
+      padding-top: 7%;
+    }
+
+    li {
+      display: inline;
+      margin: 5px;
+    }
+
+    a {
+      text-decoration: none;
+      color: gray;
+    }
+    
+
+
