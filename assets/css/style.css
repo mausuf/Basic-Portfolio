@@ -19,11 +19,11 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
   }
+  
   .headerbg {
     background: white;
     border-bottom: 2px solid gray ;
     height: 60px;
-    
 }
 
   .header1 {
@@ -55,6 +55,15 @@ header {
 
   .profileimg {
       float: left;
+      margin-left: 3%;
+      margin-top: 2%;
+  }
+
+  .blurb1 {
+    margin-left: 3%;
+    margin-right: 3%;
+    letter-spacing: 2px;
+    line-height: 1.5;
   }
   
   .section1 {
@@ -110,5 +119,13 @@ header {
       color: gray;
     }
     
+    h2 {
+      padding-bottom: 15px;
+      border-bottom: 2px solid gray;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: -5px;
+      color: rgb(17, 161, 161);
+    }
 
-
+  
